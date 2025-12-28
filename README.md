@@ -103,19 +103,12 @@ Key GDB Commands for the Lab:
 
     thread apply all bt (Diagnose the deadlock)
 
-Would you like me to expand on the "Heap Grooming" section to explain exactly how we calculate the message size to hit the kmalloc-128 slab?
-
-create now put in to markdown syntax in a single copy and pastable section
-
-Here is the comprehensive technical write-up formatted in a single, copy-pasteable Markdown block for your notes.
-Markdown
-
 # Technical Report: Linux Kernel 6.15 TTY LDisc Exploitation
 **Date:** 2025-12-25  
 **Researcher:**  1337_TECH 
 **Target:** Linux Kernel 6.15 (Mainline/Hardened)  
 **Vulnerability Type:** Race Condition (TOCTOU) -> Use-After-Free (UAF)  
-**Status:** $RIP Control Achieved (0x4242424242424242 Hijack)
+**Status:** Spray Achieved (0x4242424242424242 Heap Grooming)
 
 ---
 
